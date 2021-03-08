@@ -1,0 +1,135 @@
+body {
+  padding-top: 20px;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.image-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-box {
+  height: 120px;
+  margin-bottom: 20px;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 250px;
+  height: 350px;
+  justify-content: center;
+}
+.thumb-content {
+  padding: 10px;
+}
+.end span {
+  padding-left: 130px;
+  text-align: end;
+}
+.thumb-content p {
+  color: #d35266;
+}
+section {
+  justify-content: center;
+  padding: 100px;
+}
+.end {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+.image-text {
+  display: flex;
+  flex-direction: row;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+.image-text img {
+  margin-right: 20px;
+}
+#myCarousel {
+  width: 100%;
+}
+.container {
+  width: 100%;
+}
+.left {
+  background-color: white;
+}
+.glyphicon-chevron-left {
+  border-radius: 60%;
+  border: 1px solid gray;
+  color: #d35266;
+}
+.glyphicon-chevron-right {
+  border-radius: 60%;
+  border: 1px solid gray;
+  color: #d35266;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 250px;
+  height: 350px;
+  justify-content: center;
+}
+.thumb-content {
+  padding: 10px;
+}
+.end span {
+  padding-left: 130px;
+  text-align: end;
+}
+.thumb-content p {
+  color: #d35266;
+}
+section {
+  justify-content: center;
+  padding: 100px;
+}
+.end {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
