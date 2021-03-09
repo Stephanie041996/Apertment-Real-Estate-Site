@@ -8,7 +8,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    
+    <script
+      src="https://kit.fontawesome.com/b1a74662a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="style2.css" />
     <!-- Bootstrap CSS -->
     <link
@@ -19,17 +23,56 @@
     />
   </head>
   <body>
-    <div class="container">
+    <nav class="nav justify-content-center">
+      <p>DOMICILE</p>
+      <i class="fas fa-home"></i>
+      <a class="nav-link active" href="#">HOME</a>
+      <i class="far fa-calendar-alt"></i>
+      <a class="nav-link" href="#">COLLESCTIONS</a>
+      <i class="fas fa-shopping-cart"></i>
+      <a class="nav-link" href="#">PURCHASE LIST</a>
+      <button type="button" class="button">POST AD</button>
+    </nav>
+
+    <header>
+      <div class="search-container">
+        <div class="bannertitle" style="text-align: center">
+          <div style="display: inline-block; text-align: left">
+            <strong>DOMICILE</strong><br />
+            Search Our endless Cateloge with endless properties waiting to be
+            leased or sold!
+          </div>
+        </div>
+
+        <form action="/action_page.php">
+          <div>
+            <select class="form-control" id="sel1">
+              <option>Buy</option>
+              <option>Rent</option>
+            </select>
+          </div>
+          <div>
+            <input type="text" placeholder="Appartment" name="search" />
+          </div>
+          <div>
+            <input type="text" placeholder="Calofonia" name="search" />
+          </div>
+          <div><button type="submit">Search</button></div>
+        </form>
+      </div>
+    </header>
+<main>
+   <div class="container page-two">
       <div class="row">
-        <div class="col-3 ">
+        <div class="col-3">
           <div class="one">
             <label class="container"
-              >Rent
+              >&nbsp Rent
               <input type="checkbox" checked="checked" />
               <span class="checkmark"></span>
             </label>
             <label class="container"
-              >Own
+              >&nbsp Own
               <input type="checkbox" />
               <span class="checkmark"></span>
             </label>
@@ -37,102 +80,180 @@
           <!--Columns check boxes-->
           <h4>Type</h4>
           <hr />
-          <label class="container"
-            >Appartments
+          <label class="container"></label>
+            &nbsp Appartments
             <input type="checkbox" checked="checked" />
             <span class="checkmark"></span>
           </label>
-          <label class="container"
-            >Garden flats
+          <label class="container">
+            &nbsp Garden flats
             <input type="checkbox" />
             <span class="checkmark"></span>
           </label>
-          <label class="container"
-            >Houses
+          <label class="container">
+            &nbsp Houses
             <input type="checkbox" />
             <span class="checkmark"></span>
           </label>
-          <label class="container"
-            >Land
+          <label class="container">
+            &nbsp Land
             <input type="checkbox" />
             <span class="checkmark"></span>
           </label>
           <h4>Size</h4>
           <hr />
           <label class="container"
-            >2-5 rooms
+            >&nbsp 2-5 rooms
             <input type="checkbox" checked="checked" />
             <span class="checkmark"></span>
           </label>
-          <label class="container"
-            >6+ rooms
+          <label class="container">
+            &nbsp 6+ rooms
             <input type="checkbox" />
             <span class="checkmark"></span>
           </label>
-          <label class="container"
-            >custom
+          <label class="container">
+            &nbsp custom
             <input type="checkbox" />
             <span class="checkmark"></span>
           </label>
           <h4>Price range</h4>
           <hr />
-          <label class="container"
-            >$100-$500
+          <label class="container">
+            &nbsp $100-$500
             <input type="checkbox" checked="checked" />
             <span class="checkmark"></span>
           </label>
-          <label class="container"
-            >$600-$800
+          <label class="container">
+            &nbsp $600-$800
             <input type="checkbox" />
             <span class="checkmark"></span>
           </label>
-          <label class="container"
-            >$900-$1000
+          <label class="container">
+            &nbsp $900-$1000
             <input type="checkbox" />
             <span class="checkmark"></span>
           </label>
-          <label class="container"
-            >+$1000
+          <label class="container">
+            &nbsp +$1000
             <input type="checkbox" />
             <span class="checkmark"></span>
           </label>
         </div>
         <div class="col-9">
-          <div class="image-text">
-            <div>
-              <img src="./images/newyork.jpg" alt="Propertyimg" />
-            </div>
-            <div>
-              <h4>New york Appartment (East side)</h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Expedita adipisci minus eveniet deserunt, corrupti eligendi
-                ducimus ratione ad, consectetur quo molestias aperiam a vitae
-                asperiores odit ullam ut deleniti vero.
-              </p>
-              <button>450S</button>
-              <button>Purchase details</button>
-            </div>
+          <div class="element">
+            <p>
+              24 Results for search Appartments search for Boston in Category
+              for Sale
+            </p>
           </div>
           <div class="image-text">
             <div>
               <img src="./images/newyork.jpg" alt="Propertyimg" />
             </div>
             <div>
-              <h4>New york Appartment (East side)</h4>
+              <h4>New york Appartment (East side) 3 bed rooms, 1 bath</h4>
+              <h6>200 M, Rent</h6>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Expedita adipisci minus eveniet deserunt, corrupti eligendi
                 ducimus ratione ad, consectetur quo molestias aperiam a vitae
                 asperiores odit ullam ut deleniti vero.
               </p>
-              <button>450S</button>
-              <button>Purchase details</button>
+              <p>Location: 25 Firestone Street, Newyork</p>
+              <div class="end">
+                <p>23 Nov 2021</p>
+                <span><button>450S</button></span>
+              </div>
+            </div>
+          </div>
+          &nbsp;
+          <div class="image-text">
+            <div>
+              <img src="./images/newyork.jpg" alt="Propertyimg" />
+            </div>
+            <div>
+              <h4>New york Appartment (East side) 3 bed rooms, 1 bath</h4>
+              <h6>200 M, Rent</h6>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Expedita adipisci minus eveniet deserunt, corrupti eligendi
+                ducimus ratione ad, consectetur quo molestias aperiam a vitae
+                asperiores odit ullam ut deleniti vero.
+              </p>
+              <p>Location: 25 Firestone Street, Newyork</p>
+              <div class="end">
+                <p>23 Nov 2021</p>
+                <span><button>450S</button></span>
+              </div>
+            </div>
+          </div>
+          &nbsp;
+          <div class="image-text">
+            <div>
+              <img src="./images/newyork.jpg" alt="Propertyimg" />
+            </div>
+            <div>
+              <h4>New york Appartment (East side) 3 bed rooms, 1 bath</h4>
+              <h6>200 M, Rent</h6>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Expedita adipisci minus eveniet deserunt, corrupti eligendi
+                ducimus ratione ad, consectetur quo molestias aperiam a vitae
+                asperiores odit ullam ut deleniti vero.
+              </p>
+              <p>Location: 25 Firestone Street, Newyork</p>
+              <div class="end">
+                <p>23 Nov 2021</p>
+                <span><button>450S</button></span>
+              </div>
+            </div>
+          </div>
+          &nbsp;
+          <div class="image-text">
+            <div>
+              <img src="./images/newyork.jpg" alt="Propertyimg" />
+            </div>
+            <div>
+              <h4>New york Appartment (East side) 3 bed rooms, 1 bath</h4>
+              <h6>200 M, Rent</h6>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Expedita adipisci minus eveniet deserunt, corrupti eligendi
+                ducimus ratione ad, consectetur quo molestias aperiam a vitae
+                asperiores odit ullam ut deleniti vero.
+              </p>
+              <p>Location: 25 Firestone Street, Newyork</p>
+              <div class="end">
+                <p>23 Nov 2021</p>
+                <span><button>450S</button></span>
+              </div>
+            </div>
+          </div>
+          &nbsp;
+          <div class="image-text">
+            <div>
+              <img src="./images/newyork.jpg" alt="Propertyimg" />
+            </div>
+            <div>
+              <h4>New york Appartment (East side) 3 bed rooms, 1 bath</h4>
+              <h6>200 M, Rent</h6>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Expedita adipisci minus eveniet deserunt, corrupti eligendi
+                ducimus ratione ad, consectetur quo molestias aperiam a vitae
+                asperiores odit ullam ut deleniti vero.
+              </p>
+              <p>Location: 25 Firestone Street, Newyork</p>
+              <div class="end">
+                <p>23 Nov 2021</p>
+                <span><button>450S</button></span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div></main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
