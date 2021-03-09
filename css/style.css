@@ -145,6 +145,24 @@ section {
 
   background-color: #f6f6f6;
 }
+.section-main-3 {
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 30px;
+
+  background-color: #f6f6f6;
+}
+.section-main-2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 30px;
+
+  background-color: #f6f6f6;
+}
 .end {
   padding-top: 8px;
   display: flex;
