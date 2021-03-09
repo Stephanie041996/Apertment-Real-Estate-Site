@@ -1,10 +1,16 @@
 .nav {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
   background-color: black;
 }
 nav a {
   color: white;
 }
 nav p {
+  color: white;
+}
+.nav fas far {
   color: white;
 }
 button {
