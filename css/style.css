@@ -7,6 +7,9 @@
 nav a {
   color: #888888;
 }
+nav a:hover {
+  color: black;
+}
 .food {
   color: #d35266;
 }
@@ -100,6 +103,45 @@ form {
   border-left: 1px solid gray;
   border-right: 1px solid grey;
 }
+/*footer*/
+.col-2 a {
+  padding-right: 20px;
+}
+.col-2 div {
+  padding-top: 20px;
+}
+.last-col {
+  padding-top: 50px;
+}
+.first-col {
+  padding-top: 40px;
+}
+.col-1 {
+  padding-right: 50px;
+}
+.button-footer {
+  background-color: #f6f6f6;
+  width: 70px;
+  height: 25px;
+}
+footer a {
+  color: #888888;
+}
+.col-2 a {
+  color: #d35266;
+}
+footer h5 {
+  color: #d35266;
+  font-size: 14;
+}
+.first-col h4 {
+  text-align: center;
+}
+footer .col-12 {
+  border-top: 1px solid gray;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
 
 @media only screen and (min-width: 768px) {
   .image-text-row {
@@ -149,6 +191,7 @@ form {
   }
 }
 /* MAin section desktop view 2*/
+
 .row {
   display: none;
 }
@@ -218,3 +261,4 @@ section {
   gap: 10px;
   padding-bottom: 0;
 }
+/* footer style*/
