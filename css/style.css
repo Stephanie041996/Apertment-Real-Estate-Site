@@ -202,7 +202,7 @@ section {
   padding-left: 10px;
   padding-right: 10px;
   justify-content: center;
-  padding-bottom: 100px;
+
   padding-top: 30px;
 
   background-color: #f6f6f6;
@@ -216,4 +216,5 @@ section {
   display: flex;
   align-items: baseline;
   gap: 10px;
+  padding-bottom: 0;
 }
