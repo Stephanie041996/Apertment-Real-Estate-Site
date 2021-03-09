@@ -80,7 +80,22 @@ form {
   padding-bottom: 80px;
   width: 100%;
 }
+
 @media only screen and (min-width: 768px) {
+  .image-text-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .image-text-row img {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
   .image-text {
     display: flex;
     flex-direction: row;
