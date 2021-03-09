@@ -150,3 +150,8 @@ section {
   display: flex;
   flex-direction: row;
 }
+.row-title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
