@@ -67,7 +67,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Cindy Shin ](https://www.behance.net/gallery/24796463/ZATTIX)
+- [Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## 📝 License
 
