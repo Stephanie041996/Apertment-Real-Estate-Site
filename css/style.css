@@ -423,7 +423,7 @@ section {
   top: 5px;
   width: 4px;
   height: 8px;
-  border: solid white;
+  border: solid rgb(109, 109, 109);
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
