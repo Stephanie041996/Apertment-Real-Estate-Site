@@ -6,11 +6,7 @@
 }
 
 nav a {
-  color: #888888;
-}
-
-nav a:hover {
-  color: black;
+  color: #888;
 }
 
 .food {
@@ -18,11 +14,11 @@ nav a:hover {
 }
 
 nav p {
-  color: #888888;
+  color: #888;
 }
 
 i {
-  color: #888888;
+  color: #888;
 }
 
 .section-main i {
@@ -32,6 +28,7 @@ i {
 button {
   background-color: #d35266;
 }
+
 header {
   padding-top: 50px;
   background-color: #d35266;
@@ -62,7 +59,7 @@ form {
 .search-container select {
   width: 150px;
   -webkit-appearance: none;
-  border-radius: 0px;
+  border-radius: 0;
   background-image: linear-gradient(45deg, transparent 50%, gray 50%),
     linear-gradient(135deg, gray 50%, transparent 50%);
   background-position: calc(100% - 20px) calc(1em + 2px),
@@ -93,7 +90,7 @@ form {
   margin-left: 8px;
 }
 
-/* NAV STYLE END*/
+/* NAV STYLE END */
 .image-text {
   display: flex;
   flex-direction: column;
@@ -105,17 +102,15 @@ form {
 }
 
 .page-two {
-  padding-top: 50px;
   display: grid;
   grid-template-columns: 30% 70%;
-  padding: 10px;
-  padding-top: 50px;
+  padding: 50px 10px 10px 10px;
   background-color: #f6f6f6;
 }
 
 .grid-item {
   align-content: center;
-  border-right: 1px solid #888888;
+  border-right: 1px solid #888;
 }
 
 .element {
@@ -126,7 +121,7 @@ form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 1px solid #888888;
+  border: 1px solid #888;
   margin-bottom: 2px;
   margin-top: 3px;
 }
@@ -144,9 +139,14 @@ form {
   padding: 5px;
 }
 
-/*footer*/
+/* footer */
+footer a {
+  color: #888;
+}
+
 .col-2 a {
   padding-right: 20px;
+  color: #d35266;
 }
 
 .col-2 div {
@@ -173,17 +173,9 @@ form {
   height: 25px;
 }
 
-footer a {
-  color: #888888;
-}
-
-.col-2 a {
-  color: #d35266;
-}
-
 footer h5 {
   color: #d35266;
-  font-size: 14;
+  font-size: 14px;
 }
 
 .first-col h4 {
@@ -191,10 +183,19 @@ footer h5 {
   font-size: 18px;
 }
 
+.col-12 {
+  display: flex;
+  align-items: baseline;
+}
+
 footer .col-12 {
   border-top: 1px solid gray;
   padding-top: 4px;
   padding-bottom: 4px;
+}
+
+nav a:hover {
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {
@@ -264,7 +265,7 @@ footer .col-12 {
   }
 }
 
-/* MAin section desktop view 2*/
+/* MAin section desktop view 2 */
 .row {
   display: none;
 }
@@ -352,16 +353,12 @@ section {
   padding-bottom: 0;
 }
 
-.col-12 {
-  display: flex;
-  align-items: baseline;
-}
-
 .socials {
   margin-left: auto;
 }
 
-/* checker box style*/
+/* checker box style */
+
 /* The container */
 .checker {
   display: block;
@@ -406,19 +403,14 @@ section {
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+.checkmark::after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the checkmark when checked */
-.container .chekcker input:checked ~ .checkmark:after {
-  display: block;
-}
-
 /* Style the checkmark/indicator */
-.container .checker .checkmark:after {
+.container .checker .checkmark::after {
   left: 9px;
   top: 5px;
   width: 4px;
@@ -428,6 +420,11 @@ section {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+/* Show the checkmark when checked */
+.container .chekcker input:checked ~ .checkmark::after {
+  display: block;
 }
 
 .carousel-control-prev-icon {
