@@ -97,12 +97,42 @@ form {
 
 .page-two {
   padding-top: 50px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 10px;
+  padding-top: 50px;
+  background-color: ##f6f6f6;
+}
+.grid-item {
+  align-content: center;
+
+  border-right: 1px solid #888888;
 }
 
-.col-9 {
-  border-left: 1px solid gray;
-  border-right: 1px solid grey;
+.element {
+  padding-left: 30px;
 }
+.image-text1 {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  border: 1px solid #888888;
+  margin-bottom: 2px;
+  margin-top: 3px;
+}
+.image-text1 img {
+  width: 100%;
+  height: 100%;
+}
+.image-text1 div {
+  height: 50%;
+}
+
+.col-3 {
+  padding: 5px;
+}
+
 /*footer*/
 .col-2 a {
   padding-right: 20px;
@@ -116,7 +146,7 @@ form {
 }
 .first-col {
   padding-top: 40px;
-padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .col-1 {
   padding-right: 50px;
@@ -138,6 +168,7 @@ footer h5 {
 }
 .first-col h4 {
   text-align: center;
+  font-size: 18px;
 }
 footer .col-12 {
   border-top: 1px solid gray;
@@ -146,20 +177,18 @@ footer .col-12 {
 }
 
 @media only screen and (min-width: 768px) {
-  .image-text-row {
+  .image-text1 {
     display: flex;
-    align-items: center;
     flex-direction: row;
+    gap: 10px;
     width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    height: 300px;
   }
-  .image-text-row img {
-    flex-grow: 0;
-    flex-shrink: 0;
+  .image-text1 img {
+    width: 300px;
+    height: 299px;
   }
+
   .image-text {
     display: flex;
     flex-direction: row;
@@ -171,6 +200,10 @@ footer .col-12 {
   }
   .image-text img {
     margin-right: 30px;
+  }
+  .ends span {
+    padding-left: 280px;
+    text-align: end;
   }
   #myCarousel {
     width: 100%;
@@ -190,6 +223,13 @@ footer .col-12 {
     border-radius: 60%;
     border: 1px solid gray;
     color: #d35266;
+  }
+  .one {
+    display: flex;
+    flex-direction: row;
+  }
+  .bannertitle {
+    padding-left: 10px;
   }
 }
 /* MAin section desktop view 2*/
@@ -231,7 +271,6 @@ section {
   justify-content: center;
   padding-bottom: 100px;
   padding-top: 30px;
-
   background-color: #f6f6f6;
 }
 .section-main-3 {
@@ -252,7 +291,15 @@ section {
 
   background-color: #f6f6f6;
 }
+.main-search-page {
+  background-color: #f6f6f6;
+}
 .end {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+.ends {
   padding-top: 8px;
   display: flex;
   flex-direction: row;
@@ -262,5 +309,80 @@ section {
   align-items: baseline;
   gap: 10px;
   padding-bottom: 0;
+}
+/* checker box style*/
+/* The container */
+.checker {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
-/* footer style*/
+/* Hide the browser's default checkbox */
+.container .checker input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container .checker:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container .checker input:checked ~ .checkmark {
+  background-color: #d35266;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container .chekcker input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checker .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23D35266' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23D35266' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
