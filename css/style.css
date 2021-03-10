@@ -310,6 +310,13 @@ section {
   gap: 10px;
   padding-bottom: 0;
 }
+.col-12 {
+  display: flex;
+  align-items: baseline;
+}
+.socials {
+  margin-left: auto;
+}
 /* checker box style*/
 /* The container */
 .checker {
