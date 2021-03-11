@@ -40,6 +40,13 @@ header {
   text-align: center;
 }
 
+.bannertitle h1 {
+  font-size: 24px;
+}
+
+.bannertitle h2 {
+  font-size: 18px;
+}
 strong {
   font-size: 35px;
 }
@@ -60,13 +67,10 @@ form {
   width: 150px;
   -webkit-appearance: none;
   border-radius: 0;
-  background-image:
-    linear-gradient(45deg, transparent 50%, gray 50%),
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
     linear-gradient(135deg, gray 50%, transparent 50%);
-  background-position:
-    calc(100% - 20px) calc(1em + 2px),
-    calc(100% - 15px) calc(1em + 2px),
-    calc(100% - 2.5em) 0.5em;
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
   background-size: 5px 5px, 5px 5px, 1px 1.5em;
   background-repeat: no-repeat;
   -moz-appearance: none;
@@ -120,11 +124,14 @@ form {
   padding-left: 30px;
 }
 
+.element h3 {
+  font-size: 14px;
+}
 .image-text1 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 1px solid #888;
+  border: 1px solid #888888;
   margin-bottom: 2px;
   margin-top: 3px;
 }
@@ -201,6 +208,15 @@ nav a:hover {
   color: black;
 }
 
+.ends span {
+  padding-left: 200px;
+  text-align: end;
+}
+
+.image-text h3 {
+  font-size: 18px;
+}
+
 @media only screen and (min-width: 768px) {
   .image-text1 {
     display: flex;
@@ -218,8 +234,8 @@ nav a:hover {
   .image-text {
     display: flex;
     flex-direction: row;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 5px;
+    padding-left: 100px;
     padding-top: 80px;
     padding-bottom: 80px;
     width: 100%;
@@ -266,6 +282,14 @@ nav a:hover {
   .bannertitle {
     padding-left: 10px;
   }
+
+  .thumb-content {
+    padding: 10px;
+  }
+
+  .card1 img {
+    height: 60%;
+  }
 }
 
 /* MAin section desktop view 2 */
@@ -280,18 +304,16 @@ nav a:hover {
   height: 100%;
   justify-content: center;
   background-color: white;
+  padding-bottom: 10px;
 }
 
 .card1 img {
   width: 100%;
-}
-
-.thumb-content {
-  padding: 10px;
+  height: 40%;
 }
 
 .end span {
-  padding-left: 130px;
+  padding-left: 100px;
   text-align: end;
 }
 
