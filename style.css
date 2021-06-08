@@ -1,0 +1,475 @@
+.nav {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  background-color: #383838;
+}
+
+nav a {
+  color: #888;
+}
+
+.food {
+  color: #d35266;
+}
+
+nav p {
+  color: #888;
+}
+
+i {
+  color: #888;
+}
+
+.section-main i {
+  color: #383838;
+}
+
+button {
+  background-color: #d35266;
+}
+
+header {
+  padding-top: 50px;
+  background-color: #d35266;
+  height: 300px;
+}
+
+.bannertitle {
+  color: white;
+  text-align: center;
+}
+
+.bannertitle h1 {
+  font-size: 24px;
+}
+
+.bannertitle h2 {
+  font-size: 18px;
+}
+
+strong {
+  font-size: 35px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form div {
+  margin: 3px;
+  width: 350px;
+}
+
+.search-container select {
+  width: 150px;
+  -webkit-appearance: none;
+  border-radius: 0;
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  -moz-appearance: none;
+  display: block;
+  padding: 0.3rem;
+  height: 40px;
+  margin-right: 2px;
+}
+
+.search-container select:focus {
+  width: 150px;
+}
+
+.search-container input {
+  width: 200px;
+  height: 40px;
+  margin-right: 2px;
+}
+
+.search-container button {
+  background-color: black;
+  color: gainsboro;
+  height: 40px;
+  margin-left: 8px;
+}
+
+/* NAV STYLE END */
+.image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.full {
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.page-two {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 50px 10px 10px 10px;
+  background-color: #f6f6f6;
+}
+
+.grid-item {
+  align-content: center;
+  border-right: 1px solid #888;
+}
+
+.element {
+  padding-left: 30px;
+}
+
+.element h3 {
+  font-size: 14px;
+}
+
+.image-text1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 2px;
+  margin-top: 3px;
+}
+
+.image-text1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-text1 div {
+  height: 50%;
+}
+
+.col-3 {
+  padding: 5px;
+}
+
+/* footer */
+footer a {
+  color: #888;
+}
+
+.col-2 a {
+  padding-right: 20px;
+  color: #d35266;
+}
+
+.col-2 div {
+  padding-top: 20px;
+}
+
+.last-col {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.first-col {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.col-1 {
+  padding-right: 50px;
+}
+
+.button-footer {
+  background-color: #f6f6f6;
+  width: 70px;
+  height: 25px;
+}
+
+footer h5 {
+  color: #d35266;
+  font-size: 14px;
+}
+
+.first-col h4 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.col-12 {
+  display: flex;
+  align-items: baseline;
+}
+
+footer .col-12 {
+  border-top: 1px solid gray;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.ends span {
+  padding-left: 200px;
+  text-align: end;
+}
+
+.image-text h3 {
+  font-size: 18px;
+}
+
+.thumb-content {
+  padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .image-text1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    height: 300px;
+  }
+
+  .image-text1 img {
+    width: 300px;
+    height: 299px;
+  }
+
+  .image-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-bottom: 95px;
+    padding-top: 80px;
+    width: 100%;
+  }
+
+  .image-text img {
+    margin-right: 10px;
+  }
+
+  .ends span {
+    padding-left: 280px;
+    text-align: end;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .left {
+    background-color: white;
+  }
+
+  .glyphicon-chevron-left {
+    border-radius: 60%;
+    border: 1px solid gray;
+    color: #d35266;
+  }
+
+  .glyphicon-chevron-right {
+    border-radius: 60%;
+    border: 1px solid gray;
+    color: #d35266;
+  }
+
+  .one {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bannertitle {
+    padding-left: 10px;
+  }
+
+  .thumb-content {
+    padding: 15px;
+  }
+
+  .card1 img {
+    height: 60%;
+  }
+}
+
+/* MAin section desktop view 2 */
+.row {
+  display: none;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.card1 img {
+  width: 100%;
+  height: 40%;
+}
+
+.end span {
+  padding-left: 80px;
+  text-align: end;
+}
+
+.thumb-content p {
+  color: #d35266;
+}
+
+section {
+  justify-content: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-main {
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 30px;
+  background-color: #f6f6f6;
+}
+
+.section-main-3 {
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 30px;
+  background-color: #f6f6f6;
+}
+
+.section-main-2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  padding-top: 30px;
+  background-color: #f6f6f6;
+}
+
+.main-search-page {
+  background-color: #f6f6f6;
+}
+
+.end {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ends {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.row-title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding-bottom: 0;
+}
+
+.socials {
+  margin-left: auto;
+}
+
+/* checker box style */
+
+/* The container */
+.checker {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container .checker input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container .checker:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container .checker input:checked ~ .checkmark {
+  background-color: #d35266;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Style the checkmark/indicator */
+.container .checker .checkmark::after {
+  left: 9px;
+  top: 5px;
+  width: 4px;
+  height: 8px;
+  border: solid rgb(109, 109, 109);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Show the checkmark when checked */
+.container .chekcker input:checked ~ .checkmark::after {
+  display: block;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.mobile {
+  padding: 10px;
+}
