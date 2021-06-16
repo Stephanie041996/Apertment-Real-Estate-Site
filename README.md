@@ -10,7 +10,7 @@
 
 
 
-The project is to build a online store website and I opted to build one that showcases properties for sell and rent. It has two pages.
+The project is to build an online store website and I opted to build one that showcases properties for sale and rent. It has two pages.
 - The Home page
 - The Search page
 
